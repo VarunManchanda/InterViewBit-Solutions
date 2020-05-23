@@ -1,4 +1,4 @@
-//Prrof:- In order to minimize the difference abs(max-min) => abs(a-b) => a-b < INT_MAX only when a decrease and b increases, So we use
+//Proof:- In order to minimize the difference abs(max-min) => abs(a-b) => a-b < INT_MAX only when a decrease and b increases, So we use
 //three pointers point from last and calculate the difference now in order to minimize the value we start to decrease maximum value.
 int Solution::solve(vector<int> &A, vector<int> &B, vector<int> &C)
 {
